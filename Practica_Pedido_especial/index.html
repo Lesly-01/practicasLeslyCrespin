@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+</head>
+<body>
+    <h1>Reserva de viajes</h1>
+ 
+    <fieldset>
+        <legend>Datos personales:</legend>
+ 
+       <label for="nombre">Ingrese su nombre:</label>
+       <input type="text"> <br><br>
+ 
+       <label for="correo">Ingrese su correo electrónico:</label>
+       <input type="text" placeholder="example@email.com"> <br><br>
+ 
+       <label for="teléfono">Ingrese su número de teléfono:</label>
+       <input type="text"> <br><br>
+ 
+    </fieldset>
+    <br>
+ 
+    <fieldset>
+        <legend>Datos de viaje:</legend>
+ 
+         <label for="acompañantes">Ingrese su número de acompañantes:</label>
+    <input type="number" step="1" min="1" max="5"> <br><br>
+ 
+    <label for="origen">Ingrese su lugar de origen:</label>
+    <input type="text" readonly value="El Salvador"> <br><br>
+ 
+    <label for="destino">Ingrese su lugar de destino:</label>
+    <select name="lugar" id="lugar" size="4" multiple>
+    <option value="Lauterbrunnen">Lauterbrunnen</option>
+    <option value="Florencia">Florencia</option>
+    <option value="Barcelona">Barcelona</option>
+    <option value="Venecia">Venecia</option>
+    </select> <br><br>
+ 
+    <label for="fecha">Ingrese su fecha de ingreso:</label>
+    <input type="date"> <br><br>
+ 
+    <label for="fecha">Ingrese su fecha de salida:</label>
+    <input type="date"> <br><br>
+ 
+    </fieldset>
+</body>
+</html>
