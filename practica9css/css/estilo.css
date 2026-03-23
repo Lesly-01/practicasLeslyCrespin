@@ -93,10 +93,11 @@ LISTAS
 ul, ol {
 margin-left: 20px;
 }
+
 li {
+margin-bottom:8px;
 }
-margin-bottom: 8px;
-}
+
 
 /* =========================
 TABLA (Box model)
@@ -151,3 +152,5 @@ background-color: #000;
 color: white;
 margin-top: 40px;
 }
+
+
