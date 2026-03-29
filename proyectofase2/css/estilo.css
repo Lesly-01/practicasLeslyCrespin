@@ -1,14 +1,17 @@
 body{
     background-color: rgb(108, 159, 165);
+    background-image: url(https://94bf2239.aerocdn.com/image-factory/e4baa023531295a065a9dc5ce493943502ac967d~500x500/images/products/ZHNQCiMjWHXlqOJSNu3GC4uVso3tOWw6PeddLh0a.jpg);
 
+    max-width: 100%;
+    margin: auto;
 }
- 
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
- 
+
 h1{
     font-family: sue ellen francisco, serif;
     font-weight: 800;
@@ -16,18 +19,18 @@ h1{
     font-size: 4rem;
     color: rgb(38, 67, 109);
 }
- 
+
 h2{
     font-family: oleo script, sefif;
     font-weight: 800;
     font-size: 2.0rem;
     color: #0e5c97;
 }
- 
+
 h3{
     color: #54738b;
 }
- 
+
 p{
     font-family: josefin sans;
     font-weight: 500;
@@ -39,11 +42,11 @@ p{
 #texto_footer{
     color: #ffffff;
 }
- 
+
 #texto2_footer{
     color: #ffffff;
 }
- 
+
 .contenedor_img{
     border-radius: 20px;
     border-width: 4px;
@@ -53,15 +56,14 @@ p{
     box-sizing: border-box;
     background-color: white;
     margin-top: 18px;
- 
+
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
- 
- 
+
 header{
-    background-color: rgb(236, 247, 255);
+    background-color: #d7deff;
     padding: 10x;
     position: sticky;
     top: 0;
@@ -71,21 +73,21 @@ header{
     align-items: center;
     justify-content: space-evenly;
 }
- 
+
 .titulo{
     align-items: center;
     margin-bottom: 10px;
     max-height: max-content;
     font-size: 1.8rem;
 }
- 
+
 .menu{
     display: flex;
     justify-content: center;
     gap: 20px;
     font-size: 0.9rem;
 }
- 
+
 link{
     text-decoration:none;
     color: #ffffff;
@@ -94,22 +96,22 @@ main{
     width:  85%;
     max-width: 1200px;
     margin: auto;
- 
+
 }
- 
+
 section{
     margin: 40px 0;
     padding: 20px;
     background-color: #ffffff;
     border-radius: 20px;
 }
- 
+
 #s1, #s2, #s3, #s3,#s4, #s5 {
     text-align: center;
     color: #1f3b55;
- 
+
 }
- 
+
 form{
     margin-top: 20px;
     margin-left: auto;
@@ -117,64 +119,66 @@ form{
     width: 400px;
     color: rgb(19, 19, 92);
 }
- 
+
 .form_texto{
     display: flex;
     justify-content: center;
     margin-bottom: 10px;
     max-height: max-content;
 }
- 
+
 #form_estilo{
     display: flex;
     justify-content: center;
 }
- 
+
 ol, ul{
     margin-left: 20px;
 }
- 
- 
+
+
 li{
     margin-bottom: 5px;
 }
- 
+
 #img_cuadro{
     float: right;
     clear: both;
     margin-left: 10px;
     margin-right: 10px;
 }
- 
+
 #img_historia{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 10px;
+    align-content: center;
+    object-fit: cover;
     justify-content: center;
     transition: transform 0.3s;
 }
- 
+
 #img_historia:hover{
     transform: scale(1.1);
 }
- 
+
 .link{
     color: #2d3f66;
     text-decoration: none;
 }
- 
+
 .link:hover{
-    background-color: #88a0be;
+    background-color: #88b1be;
 }
- 
+
 input{
     padding: 8px;
     width: 100%;
     max-width: 400px;
     border-radius: 5px;
 }
- 
+
 input[type="submit"] {
 background-color: #356286;
 color: white;
@@ -182,47 +186,50 @@ border: none;
 cursor: pointer;
 margin-top: 10px;
 }
- 
+
 input[type="submit"]:hover {
 background-color: #ffed48;
 }
- 
+
 #link_info:hover{
-    color: #ebe04b;
+    color: #fff459;
 }
- 
+
 .ficha table{
     width: 100%;
     border-collapse: collapse;
 }
- 
+
 .ficha th, .ficha td{
     border: 2px solid #285f9c;
-    padding:10px;
+    padding:10px; 
 }
- 
+
 .ficha th{
     background-color: aliceblue;
     color: rgb(20, 88, 148);
 }
- 
+
 #img_galeria{
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-    justify-content:center;
+    align-content: center;
+    justify-content: center;
+    object-fit: cover;
     transition: transform 0.3s;
- 
 }
- 
+
+
 #img_galeria:hover{
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
- 
+
 footer{
 text-align:center;
 padding: 20px;
-background-color:#142042;
+background-color:#111625;
 color: white;
 margin-top: 40px;
 }
+
