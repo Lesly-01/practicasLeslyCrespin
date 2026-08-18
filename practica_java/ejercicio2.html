@@ -11,18 +11,16 @@
     <script>
         let nombre, nota1, nota2, nota3, promedio;
 
-        let porcentaje1= 0.30, porcentaje2=0.35, porcentaje3=0.35;
+        let porcentaje1= 0.30, porcentaje2= 0.35, porcentaje3= 0.35;
 
-        nombre=prompt("Ingrese nombre del estudiante:");
-        nota1= number(prompt("Ingrese la primara nota: (30%)"));
+        nombre= prompt("Ingrese nombre del estudiante:");
+        nota1 = Number(prompt("Ingrese la primara nota: (30%)"));
+        nota2 = Number(prompt("Ingrese la segunda nota: (35%)"));
+        nota3 = Number(prompt("Ingrese la tercera nota: (35%)"));
 
+        promedio= nota1*porcentaje1 + nota2*porcentaje2 + nota3*porcentaje3;
 
-
-        promedio= nota*porcentaje1 + nota*2porcentaje2 + nota3*porcentaje3;
-
-        document.write("El promedio de notas ponderado de" +nombre + "es" + promedio);
-
-
+        document.write("El promedio de notas ponderado de   " + nombre + " es " + promedio);
 
 
 
