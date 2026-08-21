@@ -10,7 +10,7 @@
     <h1 id="puntaje">0</h1>
     
     <button onclick="agregar()">Agregar (1) punto</button>
-    <button oncanplay="duplicar()">Duplicar puntos</button>
+    <button onclick="duplicar()">Duplicar puntos</button>
 
     <script>
         let puntos = 0;
@@ -25,7 +25,8 @@
         }
 
         function duplicar(){
-            puntos= puntos *2;
+            puntos = puntos * 2;
+            marcador.innerText = puntos;
 
         }
         
